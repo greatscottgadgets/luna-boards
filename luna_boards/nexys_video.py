@@ -18,11 +18,11 @@ import os
 import logging
 import subprocess
 
-from nmigen import *
-from nmigen.build import *
-from nmigen.vendor.xilinx_7series import Xilinx7SeriesPlatform
+from amaranth import *
+from amaranth.build import *
+from amaranth.vendor.xilinx_7series import Xilinx7SeriesPlatform
 
-from nmigen_boards.resources import *
+from amaranth_boards.resources import *
 from luna.gateware.interface.pipe import GearedPIPEInterface
 
 from luna.gateware.platform.core import LUNAPlatform
